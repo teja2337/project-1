@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+    <style>
+        p{
+            background: none;
+            margin:8% 34%;
+            border: 2px  solid black;
+            border-radius: 30px;
+            outline: aqua solid 10px;
+            padding:50px 0px ;
+        }
+    </style>
+</head>
+  <body background="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000" text="black"><br><br>
+
+    <form action="/login" method="post">
+
+        <br><br><p style=" font-style: italic; font-size: x-large "   align="center">{{ Login }} <br><br>
+      Username: <input style="height: 20px" type="text" name="username"  /><br><br>Password: <input style="height: 20px" type="password" name="password"/><br><br>
+          <input style="height: 30px; width: 100px; font-size: medium " type="submit" value="Login" ><br><br>
+        Did not have an account PLease <a href="/register">register here</a> </p>
+
+    </form>
+  </body>
+</html>
